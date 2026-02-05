@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
-	<title>Formularios</title>
-	<link rel="stylesheet" href="../../styles.css">   
+
+    <title>Formularios</title>
+    <link rel="stylesheet" href="../../styles.css">
+
 </head>
 <body>
-	<form>
-		<h1>Los formularios son la manera de interactuar con el usuario que tienen las paginas</h1>
-		<p>Dentro de las TAG de form se incluyen los input(entrada de texto, password, checkbox, date etc), para que esos campos sean obligatorios de completar se debe agregar la palabra "required"
-			Otro atributo de los input es name, y es la forma en que el servidor identifica los campos
-			El otro atributo importante de un input es el placeholder que nos escribe un pequeño texto o explicacion de lo que el usuario debe escribir o completar en ese campo, este mismo desaparece cuando el usuario comienza a escribir
-		</p>
-		
-		<input type="text" required placeholder="Ingrese su usuario aqui">
-		<input type="email" required name="email">
-		<input type="password" required name ="password">
-		<input type="submit">
-		<input type="checkbox">
-		<input type="radio">
-		<input type="file" >
-		<input type="date" >
-	</form>
-	
+	<div class="form_container">
+    <form class="form">
+        <h1>
+            Los formularios son la manera de interactuar con el usuario que tienen las paginas
+        </h1>
+
+        <p>
+            Dentro de las TAG de form se incluyen los input (entrada de texto, password,
+            checkbox, date, etc). Para que esos campos sean obligatorios de completar se
+            debe agregar la palabra "required". Otro atributo de los input es name, y es
+            la forma en que el servidor identifica los campos. El otro atributo importante
+            de un input es el placeholder, que nos escribe un pequeño texto o explicación
+            de lo que el usuario debe escribir o completar en ese campo. Este mismo
+            desaparece cuando el usuario comienza a escribir.
+        </p>
+
+        <input type="text" required placeholder="Ingrese su usuario aqui">
+        <input type="email" required name="email">
+        <input type="password" required name="password">
+        <input type="submit">
+        <input type="checkbox">
+        <input type="radio">
+        <input type="file">
+        <input type="date">
+
+    </form>
+</div>
+
 </body>
 </html>
